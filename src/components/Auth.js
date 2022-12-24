@@ -17,7 +17,7 @@ const Auth = () => {
     })
     const [isSignup, setIsSignup] = useState(false)
     const handleChange = (e) => {
-        setInputs((prevState) =>({
+        setInputs((prevState) =>({ 
             ...prevState,  
             [e.target.name] : e.target.value  
         }));
